@@ -6,4 +6,12 @@
     width: 150px;
     line-height: 30px;
     margin-bottom: 30px;
+
+    @media (min-width: 45rem) {
+        .search-box {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+    }
 }

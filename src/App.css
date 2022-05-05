@@ -19,4 +19,11 @@ body {
   font-size: 76px;
   color: #0ccac4;
   font-family: 'Bigelow Rules';
+
+  @media (min-width: 45rem) {
+    .app-title {
+      margin-bottom: 1.6rem;
+      align-content: right;
+    }
+  }
 }
